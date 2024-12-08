@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  opacity: 100;
+
+  background-image: url(https://smktarunabhakti.net/wp-content/uploads/2020/10/bannerwebgedung-min.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrapper {
+  width: 650px;
+}
+.photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+}
+
+.table tr td {
+  padding: 0.25rem;
+}
+
+.table tr td:first-child {
+  font-weight: 700;
+}
+
+.container {
+  border: 8px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  border-width: 4px;
+  box-shadow: 30;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ font-family: 'Segoe UI';
+  margin-top: -550px;
+  margin-right: -720px;
+}
+
+.logo {
+  margin-top: -890px ;
+  opacity: 0.5;
+  
+}
